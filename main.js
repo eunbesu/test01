@@ -73,11 +73,11 @@ app.get("/logout", function(req, res){
     res.send("dest")
 })
 
-app.get("/login", function(req, res){
-    fs.readFile("login.html", function(err, data){
-        res.send(data.toString())
-    })
-})
+// app.get("/login", function(req, res){
+//     fs.readFile("login.html", function(err, data){
+//         res.send(data.toString())
+//     })
+// })
 
 var real_id = "eun"
 var real_pw = "123123"
